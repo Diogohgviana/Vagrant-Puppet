@@ -19,7 +19,7 @@ Vagrant.configure("2") do |config|
   config.vm.define :prod do |prod_config|
     prod_config.vm.box = "centos/7"
     prod_config.vm.network "private_network", ip: "192.168.50.11"
-    prod_config.vm.provision "shell", inline: "sudo rpm -ivh http://yum.puppetlabs.com/puppetlabs-release-el-7.noarch.rpm  && sudo yum install -y puppet"
+    #prod_config.vm.provision "shell", inline: "sudo rpm -ivh http://yum.puppetlabs.com/puppetlabs-release-el-7.noarch.rpm  && sudo yum install -y puppet"
   end
 end
 
