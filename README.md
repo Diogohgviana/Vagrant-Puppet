@@ -1,2 +1,2 @@
 # Vagrant-Puppet
-Usando Vagrant para instalação e configuração de VM e o Puppet para provisionamento da VM.
+Usando Vagrant e o Puppet para deploy de uma aplicação na AWS EC2.
