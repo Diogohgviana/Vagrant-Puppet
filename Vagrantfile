@@ -6,8 +6,8 @@
   #Dados do access key
     config.vm.provider :aws do |aws, override|
 
-      aws.access_key_id = "AKIAI7S6IWO32IYDMSOA"
-      aws.secret_access_key = "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"
+      aws.access_key_id = "xxxxxxxxxx"
+      aws.secret_access_key = "xxxxxxxxxxxxxxxxxxxxxxx"
 
      #Identificação da AMI
       aws.ami = "ami-0f9cf087c1f27d9b1"
